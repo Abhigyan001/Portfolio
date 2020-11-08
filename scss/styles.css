@@ -4,7 +4,7 @@ body {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 * a {
@@ -18,6 +18,10 @@ body {
 .nav-menu a {
   text-decoration: none;
   color: #3d3838;
+}
+
+.nav-menu a:hover {
+  color: #747fe0;
 }
 
 @media screen and (max-width: 767px) {
@@ -70,7 +74,7 @@ body {
   }
 }
 
-.left,
+.nav-menu .left,
 .right {
   height: 100vh;
 }
@@ -134,7 +138,7 @@ ul.social-network li {
 }
 
 .social-network a.icoFacebook:hover {
-  background-color: #3B5998;
+  background-color: #3b5998;
 }
 
 .social-network a.icoTwitter:hover {
@@ -142,20 +146,23 @@ ul.social-network li {
 }
 
 .social-network a.icoGithub:hover {
-  background-color: #BD3518;
+  background-color: #bd3518;
 }
 
 .social-network a.icoLinkedin:hover {
   background-color: #007bb7;
 }
 
-.social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
-.social-network a.icoGithub:hover i, .social-network a.icoLinkedin:hover i {
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGithub:hover i,
+.social-network a.icoLinkedin:hover i {
   color: #fff;
 }
 
-a.socialIcon:hover, .socialHoverClass {
-  color: #44BCDD;
+a.socialIcon:hover,
+.socialHoverClass {
+  color: #44bcdd;
 }
 
 .social-circle li a {
@@ -167,7 +174,7 @@ a.socialIcon:hover, .socialHoverClass {
   width: 50px;
   height: 50px;
   font-size: 20px;
-  background-color: #D3D3D3;
+  background-color: #d3d3d3;
 }
 
 .social-circle li i {
@@ -176,7 +183,8 @@ a.socialIcon:hover, .socialHoverClass {
   text-align: center;
 }
 
-.social-circle li a:hover i, .triggeredHover {
+.social-circle li a:hover i,
+.triggeredHover {
   -moz-transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
   -ms--transform: rotate(360deg);
@@ -209,5 +217,9 @@ a.socialIcon:hover, .socialHoverClass {
           box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
   -webkit-transform: translate(0px, -10px) scale(1.2);
   transform: translate(0px, -10px) scale(1.2);
+}
+
+.console {
+  height: 75vh;
 }
 /*# sourceMappingURL=styles.css.map */
