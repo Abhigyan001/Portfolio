@@ -70,17 +70,39 @@ $contact-color: #dd3c33;
     @include tabs {
       width: 75%;
       justify-content: space-between;
-      padding-left: 5%;      
+      padding-left: 5%;
     }
   }
 
-  .fa { 
+  .fa {
     @include mobile {
       transform: scale(2);
     }
-    
+
     @include tabs {
       transform: scale(1.7);
-    } 
+    }
   }
+}
+
+.left,
+.right {
+  height: 100vh;
+}
+
+.pos {
+  margin-top: 3.5em;
+}
+
+.mobile-pos {
+  @include mobile {
+    position: relative;
+  }
+  @include tabs {
+    position: relative;
+  }
+}
+
+.new-z {
+  z-index: 1;
 }

@@ -25,7 +25,7 @@
 
 <body>
   <!-- navbar -->
-  <header class="nav-menu px-4 py-2">
+  <header class="nav-menu px-4 py-2 fixed-top zindex-sticky">
     <nav class="d-flex align-items-center justify-content-between">
       <div class="logo">
         
@@ -40,11 +40,44 @@
           <a href="#"><span class="rotation"><i class="fas fa-network-wired fa"></i></span>
             <span class="d-lg-inline d-md-none">PROJECTS</span></a>
         </div>
-        <div class="menu-items p-2 mx-3">
+        <div class="menu-items p-2 ml-3">
           <a href="#"><span><i class="far fa-address-book fa"></i></span>
             <span class="d-lg-inline d-md-none">CONTACT</span></a>
         </div>
       </div>
     </nav>
   </header>
+  <main>
+    <div class="container-fluid px-0">
+      <div class="row w-100 d-sm-block d-lg-flex mx-0"> 
+        <div class="col-sm-12 col-lg-5 px-0 pos fixed-top mobile-pos new-z">
+          <div class="text-white bg-info left">            
+            <div class="card-body">
+              <h5 class="card-title">Info card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>       
+        <div class="col-sm-12 col-lg-7 px-0 offset-lg-5 offset-sm-0">
+          <div class="text-white bg-dark right">            
+            <div class="card-body">
+              <h5 class="card-title">Dark card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class=" text-white bg-dark right">
+            
+            <div class="card-body">
+              <h5 class="card-title">Dark card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>       
+           
+      </div>
+    </div>
+  </main>
 </body>

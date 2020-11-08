@@ -67,4 +67,29 @@ body {
             transform: scale(1.7);
   }
 }
+
+.left,
+.right {
+  height: 100vh;
+}
+
+.pos {
+  margin-top: 3.5em;
+}
+
+@media screen and (max-width: 767px) {
+  .mobile-pos {
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .mobile-pos {
+    position: relative;
+  }
+}
+
+.new-z {
+  z-index: 1;
+}
 /*# sourceMappingURL=styles.css.map */
