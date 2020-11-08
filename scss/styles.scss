@@ -92,6 +92,11 @@ $contact-color: #dd3c33;
   height: 100vh;
 }
 
+.left {
+  margin-top: 15%;
+  margin-left: 2%;
+}
+
 .pos {
   margin-top: 3.5em;
 }
@@ -109,17 +114,105 @@ $contact-color: #dd3c33;
   z-index: 1;
 }
 
-.animated {  
-  margin-left: 2%;
-  -webkit-animation: blink 0.8s infinite; 
-}
-
 @-webkit-keyframes blink {
   0% {background: rgb(255, 255, 255)}
   50% {background:#747fe0}
   100% {background: rgb(255, 255, 255)}
 }
 
+.animated {  
+  margin-left: 2%;
+  -webkit-animation: blink 0.8s infinite; 
+}
+
 .name {
   color:#747fe0;
+}
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGithub:hover {
+	background-color:#BD3518;
+}
+
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGithub:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+	background-color: #D3D3D3;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.button {
+  display: inline-block;
+  background: #4285f4;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+}
+.button:hover {
+  box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate(0px, -10px) scale(1.2);
+          transform: translate(0px, -10px) scale(1.2);
 }
