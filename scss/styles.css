@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 body {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 * a {
@@ -91,5 +93,26 @@ body {
 
 .new-z {
   z-index: 1;
+}
+
+.animated {
+  margin-left: 2%;
+  -webkit-animation: blink 0.8s infinite;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    background: white;
+  }
+  50% {
+    background: #747fe0;
+  }
+  100% {
+    background: white;
+  }
+}
+
+.name {
+  color: #747fe0;
 }
 /*# sourceMappingURL=styles.css.map */

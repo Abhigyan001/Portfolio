@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 * a {
@@ -105,4 +107,19 @@ $contact-color: #dd3c33;
 
 .new-z {
   z-index: 1;
+}
+
+.animated {  
+  margin-left: 2%;
+  -webkit-animation: blink 0.8s infinite; 
+}
+
+@-webkit-keyframes blink {
+  0% {background: rgb(255, 255, 255)}
+  50% {background:#747fe0}
+  100% {background: rgb(255, 255, 255)}
+}
+
+.name {
+  color:#747fe0;
 }
