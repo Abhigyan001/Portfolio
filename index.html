@@ -35,11 +35,11 @@
       <div class="menu d-flex justify-content-lg-around">
        
         <div class="menu-items p-2 mx-3">
-          <a href="#"><span><i class="fas fa-user fa"></i></span>
+          <a href="#aboutme"><span><i class="fas fa-user fa"></i></span>
             <span class="d-lg-inline d-md-none">ABOUT</span></a>
         </div>
         <div class="menu-items p-2 mx-3">
-          <a href="#"><span class="rotation"><i class="fas fa-network-wired fa"></i></span>
+          <a href="#project"><span class="rotation"><i class="fas fa-network-wired fa"></i></span>
             <span class="d-lg-inline d-md-none">PROJECTS</span></a>
         </div>
         <div class="menu-items p-2 ml-3">
@@ -75,10 +75,8 @@
           </div>
         </div>       
         <div class="col-sm-12 col-lg-7 px-0 offset-lg-5 offset-sm-0">
-          <div class="right">
-          
-            <div class="card-body">
-              
+          <div class="right">          
+            <div class="card-body" id="aboutme">              
               <div class="terminal-header">
                 <div class="header-button red"></div>
                 <div class="header-button yellow"></div>
@@ -139,11 +137,29 @@
               </div>
             </div>
           </div>
-          <div class=" text-white bg-danger right">
+          <h2 class="section-title mt-2" id="project">Projects</h2>
+          <div class="right bg mx-4 my-4">
             
-            <div class="card-body">
+              <h5 class="text-secondary p-3 m-0">.01</h5>
+              <h4 class=" title text-center">Hospital Finder</h4>          
+            
+            <img class="card-img-top imgwidth w-75" src="images/laptop-1.png" alt="Card image cap">
+            <div class="card-body">              
+              <p class="card-text para">Hospital Finder is a website-template that helps you to search and find hospitals in a region. The search can be filtered using various options and further information on the hospitals can be obtained by <span id="dots">...</span><span id="more">selecting any search result. This project demonstrates the use of bootstrap and Sass to create a simple landmark finding website.</span></p>               
+                <button onclick="myFunction()" id="myBtn" class="btn btn-outline-success">Read more</button></p>
+              <div class="project-skills pt-2">
+                <span class="project-skill">HTML5</span>
+                <span class="project-skill">CSS3</span>
+                <span class="project-skill">Sass</span>
+                <span class="project-skill">Bootstrap</span>
+              </div>
+
+              <div class="mt-3">
+                <button type="button" class="btn btn-primary button1">Live Demo <span><i class="fas fa-external-link-alt"></i></span></button>
+                <button type="button" class="btn btn-outline-primary button1 ml-4">View Source <span><i class="fab fa-github"></i></span></button>
+              </div>
               
-            </div>
+            </div>            
           </div>
         </div>       
            
