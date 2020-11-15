@@ -27,7 +27,6 @@ $nav-color: #ffffff;
   }
 }
 
-
 // navbar
 .nav-menu {
   background-color: $nav-color;
@@ -85,6 +84,12 @@ $nav-color: #ffffff;
 .left {
   margin-top: 15%;
   margin-left: 2%;
+}
+
+.right {
+  @include tabs {
+    height: 20%;
+  } 
 }
 
 .pos {
@@ -216,16 +221,37 @@ a.socialIcon:hover,
   -webkit-transition: all ease-in-out 300ms;
   transition: all ease-in-out 300ms;
   &:hover {
-  box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
-  -webkit-transform: translate(0px, -10px) scale(1.2);
-  transform: translate(0px, -10px) scale(1.2);
+    box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translate(0px, -10px) scale(1.2);
+    transform: translate(0px, -10px) scale(1.2);
   }
 }
-
 
 .console {
   height: 100vh;
 }
+
+.card-body1 {
+  @include tabs {
+    margin-top: -15%;
+  }
+  @include mobile {
+    margin-top: -15%;
+  }
+}
+
+.card-body2 {
+  @include tabs {
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+  @include mobile {
+    margin-top: 55%;
+    margin-bottom: 1%;    
+  }
+}
+
+
 
 .terminal-header {
   height: 28px;
@@ -264,7 +290,7 @@ a.socialIcon:hover,
   border-radius: 0 0 4px 4px;
   box-shadow: 0 50px 100px rgba(50, 50, 93, 0.15),
     0 15px 35px rgba(50, 50, 93, 0.2), 0 5px 15px rgba(0, 0, 0, 0.12);
-  font-family: Monaco, Consolas, Lucida Console, monospace;
+  font-family: Monaco, Consolas, Lucida Console, monospace;  
 }
 
 .statement:first-child {
@@ -300,9 +326,9 @@ a.socialIcon:hover,
   color: #525f7f;
   font-weight: 500;
   font-size: 1.5em;
-  text-align: center;
-    
+  text-align: center;  
 }
+
 .section-title:after {
   content: " ";
   border: 4px solid #747fe0;
@@ -316,8 +342,8 @@ a.socialIcon:hover,
 .bg {
   border: 5px rgb(134, 132, 132);
   border-radius: 14px;
-  box-shadow: 0 50px 100px rgba(50, 50, 93, 0.15),
-    0 15px 35px rgba(50, 50, 93, 0.2), 0 5px 15px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 50px 100px rgba(50, 50, 93, 0.15), 0 15px 35px rgba(50, 50, 93, 0.2), 0 5px 15px rgba(0, 0, 0, 0.12);
+  
 }
 
 .project-skills {
@@ -330,8 +356,8 @@ a.socialIcon:hover,
   border: 2px solid #92eac0;
   padding: 8px;
   margin-right: 10px;
-  margin-bottom: 10px;    
-  font-size: .85em;
+  margin-bottom: 10px;
+  font-size: 0.85em;
   color: #525f7f;
 }
 
@@ -344,7 +370,9 @@ a.socialIcon:hover,
   margin-top: -3%;
 }
 
-#more {display: none;}
+#more {
+  display: none;
+}
 
 .para {
   line-height: 2;
@@ -361,21 +389,53 @@ a.socialIcon:hover,
   -webkit-transition: all ease-in-out 300ms;
   transition: all ease-in-out 300ms;
   &:hover {
-  box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
-  -webkit-transform: translate(0px, -10px) scale(1.2);
-  transform: translate(0px, -8px) scale(1.1);    
+    box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translate(0px, -10px) scale(1.2);
+    transform: translate(0px, -8px) scale(1.1);
+  }
+
+  @include tabs {
+    width: 21%;
+  }
+  @include mobile {
+    width: 45%;
+    padding: 3%;    
   }
 }
 
-.resume {    
- margin-left: 20%;
+.resume {
+  margin-left: 20%;
 }
 
 .footer {
   height: 11%;
+  @include mobile {
+    
+  }
 }
 
 .last-footer {
   border-bottom-left-radius: 14px;
   border-bottom-right-radius: 14px;
 }
+
+.footer-button {
+  @include mobile {
+    width: 30%;
+    margin: 0;
+    font-size: 19px;
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content:center;   
+  }
+}
+
+.contact-links {
+  @include mobile {
+    display: flex;
+    margin-left: 6%;
+    margin-right: 8%;
+       
+  }
+}
+

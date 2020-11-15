@@ -84,6 +84,12 @@ body {
   margin-left: 2%;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .right {
+    height: 20%;
+  }
+}
+
 .pos {
   margin-top: 3.5em;
 }
@@ -228,6 +234,32 @@ a.socialIcon:hover,
   height: 100vh;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .card-body1 {
+    margin-top: -15%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-body1 {
+    margin-top: -15%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .card-body2 {
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-body2 {
+    margin-top: 55%;
+    margin-bottom: 1%;
+  }
+}
+
 .terminal-header {
   height: 28px;
   background-color: #e4e3e5;
@@ -341,7 +373,7 @@ a.socialIcon:hover,
   padding: 8px;
   margin-right: 10px;
   margin-bottom: 10px;
-  font-size: .85em;
+  font-size: 0.85em;
   color: #525f7f;
 }
 
@@ -382,6 +414,19 @@ a.socialIcon:hover,
   transform: translate(0px, -8px) scale(1.1);
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .button1 {
+    width: 21%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button1 {
+    width: 45%;
+    padding: 3%;
+  }
+}
+
 .resume {
   margin-left: 20%;
 }
@@ -393,5 +438,31 @@ a.socialIcon:hover,
 .last-footer {
   border-bottom-left-radius: 14px;
   border-bottom-right-radius: 14px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-button {
+    width: 30%;
+    margin: 0;
+    font-size: 19px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contact-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 6%;
+    margin-right: 8%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
