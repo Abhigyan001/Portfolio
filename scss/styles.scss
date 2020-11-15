@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
 body {
   margin: 0;
   padding: 0;
@@ -78,7 +79,7 @@ $nav-color: #ffffff;
 
 .nav-menu .left,
 .right {
-  height: 98vh;
+  height: 99vh;
 }
 
 .left {
@@ -352,7 +353,7 @@ a.socialIcon:hover,
 
 .button1 {
   display: inline-block;
-  width: 20%;
+  width: 18%;
   padding: 10px 20px;
   border-radius: 50px;
   box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
@@ -362,6 +363,19 @@ a.socialIcon:hover,
   &:hover {
   box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
   -webkit-transform: translate(0px, -10px) scale(1.2);
-  transform: translate(0px, -8px) scale(1.1);  
+  transform: translate(0px, -8px) scale(1.1);    
   }
+}
+
+.resume {    
+ margin-left: 20%;
+}
+
+.footer {
+  height: 11%;
+}
+
+.last-footer {
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
 }
