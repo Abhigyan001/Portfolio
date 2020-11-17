@@ -78,7 +78,7 @@ $nav-color: #ffffff;
 
 .nav-menu .left,
 .right {
-  height: 99vh;
+  height: auto;
 }
 
 .left {
@@ -246,7 +246,7 @@ a.socialIcon:hover,
     margin-bottom: 1%;
   }
   @include mobile {
-    margin-top: 55%;
+    margin-top: 1%;
     margin-bottom: 1%;    
   }
 }
@@ -326,7 +326,10 @@ a.socialIcon:hover,
   color: #525f7f;
   font-weight: 500;
   font-size: 1.5em;
-  text-align: center;  
+  text-align: center;
+  @include mobile {
+      
+  }  
 }
 
 .section-title:after {
@@ -410,7 +413,7 @@ a.socialIcon:hover,
 .footer {
   height: 11%;
   @include mobile {
-    
+    height: 13%;
   }
 }
 

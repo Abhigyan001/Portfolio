@@ -76,7 +76,7 @@ body {
 
 .nav-menu .left,
 .right {
-  height: 99vh;
+  height: auto;
 }
 
 .left {
@@ -255,7 +255,7 @@ a.socialIcon:hover,
 
 @media screen and (max-width: 767px) {
   .card-body2 {
-    margin-top: 55%;
+    margin-top: 1%;
     margin-bottom: 1%;
   }
 }
@@ -433,6 +433,12 @@ a.socialIcon:hover,
 
 .footer {
   height: 11%;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    height: 13%;
+  }
 }
 
 .last-footer {
