@@ -390,6 +390,10 @@ a.socialIcon:hover,
   display: none;
 }
 
+#more1 {
+  display: none;
+}
+
 .para {
   line-height: 2;
   margin-top: -3%;
@@ -432,12 +436,12 @@ a.socialIcon:hover,
 }
 
 .footer {
-  height: 11%;
+  height: 8.3%;
 }
 
 @media screen and (max-width: 767px) {
   .footer {
-    height: 13%;
+    height: 9%;
   }
 }
 
