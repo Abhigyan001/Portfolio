@@ -412,7 +412,7 @@ a.socialIcon:hover,
 }
 
 .button1 {
-  color: #036FE2;
+  
   display: inline-block;
   width: 18%;
   padding: 10px 20px;
@@ -422,6 +422,10 @@ a.socialIcon:hover,
   cursor: pointer;
   -webkit-transition: all ease-in-out 300ms;
   transition: all ease-in-out 300ms;
+}
+
+.live {
+  background-color: #006ADB !important;
 }
 
 .button1:hover {
