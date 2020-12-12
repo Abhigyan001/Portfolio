@@ -23,7 +23,7 @@ It is responsive across multiple devices.
 
 ## Live Link
 
-[Live demo](https://abhigyanmahanta.netlify.app/)
+[Live demo](https://abhigyan.rocks/)
 
 Prerequisites
 Text editor, Github profile and Git.
