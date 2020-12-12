@@ -212,7 +212,7 @@ a.socialIcon:hover,
 
 .button {
   display: inline-block;
-  background: #4285f4;
+  background: #0E63EC;
   color: #fff;
   padding: 10px 20px;
   border-radius: 50px;
@@ -319,7 +319,7 @@ a.socialIcon:hover,
 }
 
 .statement a {
-  color: #16e2e9;
+  color: #0AF7FF;
 }
 
 .statement a:hover {
@@ -331,7 +331,7 @@ a.socialIcon:hover,
 }
 
 .return-statement {
-  color: #e7d184;
+  color: #FBD960;
   margin-top: -2%;
 }
 
@@ -340,6 +340,10 @@ a.socialIcon:hover,
   font-weight: 500;
   font-size: 1.5em;
   text-align: center;
+}
+
+.read-more {
+   color: #377E15;
 }
 
 .section-title:after {
@@ -408,6 +412,7 @@ a.socialIcon:hover,
 }
 
 .button1 {
+  color: #036FE2;
   display: inline-block;
   width: 18%;
   padding: 10px 20px;
@@ -426,6 +431,10 @@ a.socialIcon:hover,
   transform: translate(0px, -8px) scale(1.1);
 }
 
+.view-source {
+  background-color: #078092 !important;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .button1 {
     width: 21%;
@@ -441,6 +450,7 @@ a.socialIcon:hover,
 
 .resume {
   margin-left: 20%;
+  color: #026DDE;
 }
 
 .footer {
