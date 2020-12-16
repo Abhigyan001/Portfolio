@@ -437,6 +437,9 @@ a.socialIcon:hover,
   @include ipadpro {
      margin-left: 4%;
   }
+  @include tab {
+     margin-left: 4%;
+  }
 }
 
 .footer {
