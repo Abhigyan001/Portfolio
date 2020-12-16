@@ -16,13 +16,19 @@ $nav-color: #ffffff;
 //media-queries for tabs and mobile
 
 @mixin mobile {
-  @media screen and (max-width: 767px) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     @content;
   }
 }
 
 @mixin tabs {
   @media screen and (min-width: 768px) and (max-width: 1023px) {
+    @content;
+  }
+}
+
+@mixin ipadpro {
+  @media screen and (min-width: 1024px) and (max-width: 1439px) {
     @content;
   }
 }
@@ -310,6 +316,11 @@ a.socialIcon:hover,
     &:hover {
       color: #dbe6f1;
     }
+
+    @include mobile {
+      font-size: 16px;
+    }
+
   }
 }
 
@@ -396,7 +407,7 @@ a.socialIcon:hover,
 
 .button1 {
   display: inline-block;
-  width: 18%;
+  width: 23%;
   padding: 10px 20px;
   border-radius: 50px;
   box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
@@ -410,16 +421,22 @@ a.socialIcon:hover,
   }
 
   @include tabs {
-    width: 21%;
+    width: 23%;
   }
   @include mobile {
-    width: 45%;
-    padding: 3%;    
+    width: 44%;
+    padding: 3%;
+  }
+  @include ipadpro {
+    width: 27%;
   }
 }
 
 .resume {
-  margin-left: 20%;
+  margin-left: 12%;
+  @include ipadpro {
+     margin-left: 4%;
+  }
 }
 
 .footer {
@@ -452,5 +469,6 @@ a.socialIcon:hover,
     margin-right: 8%;
        
   }
+  
 }
 

@@ -24,7 +24,7 @@ body {
   color: #747fe0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .nav-menu nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -36,7 +36,7 @@ body {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .nav-menu {
     -ms-flex-pack: distribute;
         justify-content: space-around;
@@ -44,7 +44,7 @@ body {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .nav-menu .d-md-none {
     display: none;
   }
@@ -60,7 +60,7 @@ body {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .nav-menu .fa {
     -webkit-transform: scale(2);
             transform: scale(2);
@@ -94,7 +94,7 @@ body {
   margin-top: 3.5em;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .mobile-pos {
     position: relative;
   }
@@ -240,7 +240,7 @@ a.socialIcon:hover,
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .card-body1 {
     margin-top: -15%;
   }
@@ -253,7 +253,7 @@ a.socialIcon:hover,
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .card-body2 {
     margin-top: 1%;
     margin-bottom: 1%;
@@ -324,6 +324,12 @@ a.socialIcon:hover,
 
 .statement a:hover {
   color: #dbe6f1;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .statement a {
+    font-size: 16px;
+  }
 }
 
 .input-statement {
@@ -409,7 +415,7 @@ a.socialIcon:hover,
 
 .button1 {
   display: inline-block;
-  width: 18%;
+  width: 23%;
   padding: 10px 20px;
   border-radius: 50px;
   -webkit-box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
@@ -428,26 +434,38 @@ a.socialIcon:hover,
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .button1 {
-    width: 21%;
+    width: 23%;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .button1 {
-    width: 45%;
+    width: 44%;
     padding: 3%;
   }
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .button1 {
+    width: 27%;
+  }
+}
+
 .resume {
-  margin-left: 20%;
+  margin-left: 12%;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .resume {
+    margin-left: 4%;
+  }
 }
 
 .footer {
   height: 5.3%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .footer {
     height: 6%;
   }
@@ -458,7 +476,7 @@ a.socialIcon:hover,
   border-bottom-right-radius: 14px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .footer-button {
     width: 30%;
     margin: 0;
@@ -474,7 +492,7 @@ a.socialIcon:hover,
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .contact-links {
     display: -webkit-box;
     display: -ms-flexbox;
