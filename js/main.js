@@ -116,3 +116,18 @@ function myFunction3() {
     moreText3.style.display = "inline";
   }
 }
+
+function myFunction4() {
+  var dots4 = document.getElementById("dots4");
+  var moreText4 = document.getElementById("more4");
+  var btnText4 = document.getElementById("myBtn4");
+  if (dots4.style.display === "none") {
+    dots4.style.display = "inline";
+    btnText4.innerHTML = "Read more";
+    moreText4.style.display = "none";
+  } else {
+    dots4.style.display = "none";
+    btnText4.innerHTML = "Read less";
+    moreText4.style.display = "inline";
+  }
+}
