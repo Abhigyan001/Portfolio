@@ -404,7 +404,7 @@ a.socialIcon:hover,
   margin-top: -3%;
 }
 
-#more, #more1, #more2, #more3, #more4 {
+#more, #more1, #more2, #more3, #more4, #more5 {
   display: none;
 }
 
@@ -461,19 +461,25 @@ a.socialIcon:hover,
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .resume {
     margin-left: 4%;
   }
 }
 
 .footer {
-  height: 5.3%;
+  height: 3.8%;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .footer {
-    height: 6%;
+    height: 4.5%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .footer {
+    height: 4%;
   }
 }
 

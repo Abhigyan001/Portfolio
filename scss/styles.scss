@@ -396,7 +396,7 @@ a.socialIcon:hover,
   margin-top: -3%;
 }
 
-#more, #more1, #more2, #more3, #more4 {
+#more, #more1, #more2, #more3, #more4, #more5 {
   display: none;
 }
 
@@ -437,21 +437,24 @@ a.socialIcon:hover,
   @include ipadpro {
      margin-left: 4%;
   }
-  @include tab {
+  @include tabs {
      margin-left: 4%;
   }
 }
 
 .footer {
-  height: 5.3%;
+  height: 3.8%;
   @include mobile {
-    height: 6%;
+    height: 4.5%;
+  }
+  @include ipadpro {
+    height: 4%;
   }
 }
 
 .last-footer {
   border-bottom-left-radius: 14px;
-  border-bottom-right-radius: 14px;
+  border-bottom-right-radius: 14px;  
 }
 
 .footer-button {
