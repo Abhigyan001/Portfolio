@@ -513,4 +513,17 @@ a.socialIcon:hover,
     margin-right: 8%;
   }
 }
+
+.movieimg {
+  padding: 0;
+  margin-bottom: -140px;
+  margin-top: -120px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .movieimg {
+    margin-bottom: -70px;
+    margin-top: -60px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
