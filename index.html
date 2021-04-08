@@ -1,302 +1,597 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" href="images/a-icon.png" type="image/gif" sizes="16x16" />
 
-  <link rel="icon" href="images/a-icon.png" type="image/gif" sizes="16x16" />
+    <!-- Bootstrap file -->
 
-  <!-- Bootstrap file -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
 
-  <link rel="stylesheet" href="css/bootstrap.css" />
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
-  
+    <link rel="stylesheet" href="scss/styles.css" />
 
-  <link rel="stylesheet" href="scss/styles.css" />
+    <!-- fontawesome file -->
+    <script
+      src="https://kit.fontawesome.com/5b1eeceadd.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- fontawesome file -->
-  <script src="https://kit.fontawesome.com/5b1eeceadd.js" crossorigin="anonymous"></script>
+    <title>Abhigyan's Portfolio</title>
 
-  <title>Abhigyan's Portfolio</title>
-</head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-6XEZT007RJ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<body>
-  <!-- navbar -->
-  <header class="nav-menu px-4 py-2 fixed-top zindex-sticky">
-    <nav class="d-flex align-items-center justify-content-between">
-      <div class="logo">
-        
-      </div>
-      <div class="menu d-flex justify-content-lg-around">
-       
-        <div class="menu-items p-2 mx-3">
-          <a href="#aboutme"><span><i class="fas fa-user fa"></i></span>
-            <span class="d-lg-inline d-md-none">ABOUT</span></a>
+      gtag("config", "G-6XEZT007RJ");
+    </script>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <header class="nav-menu px-4 py-2 fixed-top zindex-sticky">
+      <nav class="d-flex align-items-center justify-content-between">
+        <div class="logo"></div>
+        <div class="menu d-flex justify-content-lg-around">
+          <div class="menu-items p-2 mx-3">
+            <a href="#aboutme"
+              ><span><i class="fas fa-user fa"></i></span>
+              <span class="d-lg-inline d-md-none">ABOUT</span></a
+            >
+          </div>
+          <div class="menu-items p-2 mx-3">
+            <a href="#project"
+              ><span class="rotation"
+                ><i class="fas fa-network-wired fa"></i
+              ></span>
+              <span class="d-lg-inline d-md-none">PROJECTS</span></a
+            >
+          </div>
+          <div class="menu-items p-2 ml-3">
+            <a href="#contactme"
+              ><span><i class="far fa-address-book fa"></i></span>
+              <span class="d-lg-inline d-md-none">CONTACT</span></a
+            >
+          </div>
         </div>
-        <div class="menu-items p-2 mx-3">
-          <a href="#project"><span class="rotation"><i class="fas fa-network-wired fa"></i></span>
-            <span class="d-lg-inline d-md-none">PROJECTS</span></a>
-        </div>
-        <div class="menu-items p-2 ml-3">
-          <a href="#contactme"><span><i class="far fa-address-book fa"></i></span>
-            <span class="d-lg-inline d-md-none">CONTACT</span></a>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <div class="container-fluid px-0">
-      <div class="row w-100 d-sm-block d-lg-flex mx-0"> 
-        <div class="col-sm-12 col-lg-5 px-0 pos fixed-top mobile-pos new-z">
-          <div class="text-black left">            
-            <div class="card-body text-center">
-              <div><h1 class="card-title name my-4">> Abhigyan Mahanta<span class="animated">&nbsp;&nbsp;</span></h1></div>
-              <h2 class="my-5">I'm a
-                <span class="txt-rotate" data-period="2000" data-rotate='[ "full stack developer.", "tech blogger.", "PC gamer." ]'></span>
-              </h2>
-              <h4 class="my-5">My passion is building simple, beautiful user experiences.
-                Check out my projects below.
-              </h4>
-              <div>
-                <ul class="social-network social-circle my-5">                
-                  <li><a href="https://github.com/Abhigyan001" target="_blank" class="icoGithub" title="Github"><i class="fab fa-github"></i></a></li>
-                  <li><a href="https://www.linkedin.com/in/abhigyanmahanta/" target="_blank" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                  <li><a href="https://www.facebook.com/abhigyan.mahanta.1" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                  <li><a href="https://twitter.com/abhigyan_001" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container-fluid px-0">
+        <div class="row w-100 d-sm-block d-lg-flex mx-0">
+          <div class="col-sm-12 col-lg-5 px-0 pos fixed-top mobile-pos new-z">
+            <div class="text-black left">
+              <div class="card-body text-center">
+                <div>
+                  <h1 class="card-title name my-4">
+                    > Abhigyan Mahanta<span class="animated">&nbsp;&nbsp;</span>
+                  </h1>
+                </div>
+                <h2 class="my-5">
+                  I'm a
+                  <span
+                    class="txt-rotate"
+                    data-period="2000"
+                    data-rotate='[ "full stack developer.", "tech blogger.", "PC gamer." ]'
+                  ></span>
+                </h2>
+                <h4 class="my-5">
+                  My passion is building simple, beautiful user experiences.
+                  Check out my projects below.
+                </h4>
+                <div>
+                  <ul class="social-network social-circle my-5">
+                    <li>
+                      <a
+                        href="https://github.com/Abhigyan001"
+                        target="_blank"
+                        class="icoGithub"
+                        title="Github"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/abhigyanmahanta/"
+                        target="_blank"
+                        class="icoLinkedin"
+                        title="Linkedin"
+                        ><i class="fa fa-linkedin"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.facebook.com/abhigyan.mahanta.1"
+                        target="_blank"
+                        class="icoFacebook"
+                        title="Facebook"
+                        ><i class="fa fa-facebook"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com/abhigyan_001"
+                        target="_blank"
+                        class="icoTwitter"
+                        title="Twitter"
+                        ><i class="fa fa-twitter"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <a
+                  class="btn btn-primary button mt-4 my-5"
+                  href="mailto:abhigyanmahanta001@gmail.com"
+                  >Say Hello!</a
+                >
               </div>
-              <a class="btn btn-primary button mt-4 my-5" href="mailto:abhigyanmahanta001@gmail.com">Say Hello!</a>
             </div>
           </div>
-        </div>       
-        <div class="col-sm-12 col-lg-7 px-0 offset-lg-5 offset-sm-0">
-          <div class="right">          
-            <div class="card-body card-body1" id="aboutme">              
-              <div class="terminal-header">
-                <div class="header-button red"></div>
-                <div class="header-button yellow"></div>
-                <div class="header-button green"></div>
+          <div class="col-sm-12 col-lg-7 px-0 offset-lg-5 offset-sm-0">
+            <div class="right">
+              <div class="card-body card-body1" id="aboutme">
+                <div class="terminal-header">
+                  <div class="header-button red"></div>
+                  <div class="header-button yellow"></div>
+                  <div class="header-button green"></div>
+                </div>
+                <div class="terminal-window">
+                  <div class="statement">
+                    <div class="input-statement">
+                      <p>> Abhigyan.currentLocation</p>
+                    </div>
+                    <div class="return-statement"><p>"Guwahati, India"</p></div>
+                  </div>
+                  <div class="statement">
+                    <div class="input-statement">
+                      <p>> Abhigyan.contactInfo</p>
+                    </div>
+                    <div class="return-statement">
+                      <p>
+                        ["<a href="mailto:abhigyanmahanta001@gmail.com"
+                          >abhigyanmahanta001@gmail.com</a
+                        >", "<a
+                          rel="noopener"
+                          href="https://www.linkedin.com/in/abhigyanmahanta/"
+                          target="_blank"
+                          >LinkedIn</a
+                        >", "<a
+                          rel="noopener"
+                          href="https://github.com/Abhigyan001"
+                          target="_blank"
+                          >Github</a
+                        >", "<a
+                          rel="noopener"
+                          href="https://twitter.com/abhigyan_001"
+                          target="_blank"
+                          >Twitter</a
+                        >"]
+                      </p>
+                    </div>
+                  </div>
+                  <div class="statement">
+                    <div class="input-statement">
+                      <p>> Abhigyan.resume</p>
+                    </div>
+                    <div class="return-statement">
+                      <p>
+                        ["<a href="./images/resume.pdf" download>abhigyan.pdf</a
+                        >"]
+                      </p>
+                    </div>
+                  </div>
+                  <div class="statement">
+                    <div class="input-statement">
+                      <p>> Abhigyan.interests</p>
+                    </div>
+                    <div class="return-statement">
+                      ["gaming", "designing", "blogging", "fiction novels",
+                      "advaita"]
+                    </div>
+                  </div>
+                  <div class="statement">
+                    <div class="input-statement">
+                      <p>> Abhigyan.education</p>
+                    </div>
+                    <div class="return-statement">
+                      "BTech. Civil Engineering - Tezpur University, Assam,
+                      India"
+                    </div>
+                  </div>
+                  <div class="statement">
+                    <div class="input-statement">
+                      <p>> Abhigyan.skills</p>
+                    </div>
+                    <div class="return-statement">
+                      ["Sass", "JavaScript", "Ruby", "Rails", "React", "Redux",
+                      "Git", "Jira"]
+                    </div>
+                  </div>
+                  <div class="statement pb-5">
+                    <div class="input-statement">
+                      ><span class="animated1">&nbsp;</span>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="terminal-window">
-                <div class="statement">
-                  <div class="input-statement"> <p>>  Abhigyan.currentLocation</p></div>
-                  <div class="return-statement"> <p>"Guwahati, India"</p></div>
+            </div>
+            <div class="card-body2" id="project">
+              <h2 class="section-title mb-2">Projects</h2>
+
+              <!-- Project 3 -->
+              <div class="right bg mx-4 my-4">
+                <h5 class="text-secondary p-3 m-0">.01</h5>
+                <h4 class="title text-center">Progress Tracker</h4>
+                <img
+                  class="card-img-top imgwidth w-75 mt-2"
+                  src="images/project-tracker.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <p class="card-text para">
+                    Progress Tracker helps users to track their daily progress
+                    across different subjects. This is a React app that consumes
+                    a Rails API.<span id="dots1">...</span
+                    ><span id="more1">
+                      Users can register and then log in to enter the time spent
+                      on each module. On the dashboard, users can see details
+                      like time left and current progress.</span
+                    >
+                  </p>
+                  <button
+                    onclick="myFunction1()"
+                    id="myBtn1"
+                    class="btn btn-outline-success read-more"
+                  >
+                    Read more
+                  </button>
+                  <div class="project-skills pt-2">
+                    <span class="project-skill">Ruby</span>
+                    <span class="project-skill">Ruby on Rails</span>
+                    <span class="project-skill">ReactJs</span>
+                    <span class="project-skill">Redux</span>
+                    <span class="project-skill">Bootstrap</span>
+                    <span class="project-skill">PostgreSQL</span>
+                    <span class="project-skill">Node.js</span>
+                    <span class="project-skill">ESLint</span>
+                  </div>
+                  <div class="mt-3">
+                    <a
+                      class="btn btn-primary button1 text-white live"
+                      href="https://progresstrackerapp.herokuapp.com/"
+                      target="_blank"
+                    >
+                      Live Demo
+                      <span><i class="fas fa-external-link-alt"></i></span
+                    ></a>
+                    <a
+                      class="btn btn-info button1 ml-4 text-white view-source"
+                      href="https://github.com/Abhigyan001/Progress_Tracker/blob/feature/README.md"
+                      target="_blank"
+                      >View Source <span><i class="fab fa-github"></i></span
+                    ></a>
+                  </div>
                 </div>
-                <div class="statement">
-                  <div class="input-statement">
-                    <p>> Abhigyan.contactInfo</p>
+              </div>
+              <!-- Project 2 -->
+              <div class="right bg mx-4 my-4">
+                <h5 class="text-secondary p-3 m-0">.02</h5>
+                <h4 class="title text-center">Stocks Info</h4>
+                <img
+                  class="card-img-top imgwidth w-75"
+                  src="images/stock.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <p class="card-text para">
+                    Stocks Info displays the most active, most gaining, and most
+                    losing stocks. Users can open each stock card for further
+                    details. <span id="dots">...</span
+                    ><span id="more"
+                      >It also displays the latest market news and gives users
+                      the ability to find information about any stock. This web
+                      app was built with React, Redux, and Stock API.</span
+                    >
+                  </p>
+                  <button
+                    onclick="myFunction()"
+                    id="myBtn"
+                    class="btn btn-outline-success read-more"
+                  >
+                    Read more
+                  </button>
+                  <div class="project-skills pt-2">
+                    <span class="project-skill">ReactJs</span>
+                    <span class="project-skill">React Hooks</span>
+                    <span class="project-skill">Redux</span>
+                    <span class="project-skill">Axios</span>
+                    <span class="project-skill">Bootstrap</span>
                   </div>
-                  <div class="return-statement">
-                    <p>["<a href="mailto:abhigyanmahanta001@gmail.com">abhigyanmahanta001@gmail.com</a>", "<a rel="noopener"
-                      href="https://www.linkedin.com/in/abhigyanmahanta/" target="_blank">LinkedIn</a>", "<a rel="noopener"
-                      href="https://github.com/Abhigyan001" target="_blank">Github</a>", "<a rel="noopener" href="https://twitter.com/abhigyan_001" target="_blank">Twitter</a>"]</p>
+                  <div class="mt-3">
+                    <a
+                      class="btn btn-primary button1 text-white live"
+                      href="https://newstocksdata.herokuapp.com/"
+                      target="_blank"
+                    >
+                      Live Demo
+                      <span><i class="fas fa-external-link-alt"></i></span
+                    ></a>
+                    <a
+                      class="btn btn-info button1 ml-4 view-source text-white"
+                      href="https://github.com/Abhigyan001/Stocks_Info"
+                      target="_blank"
+                      >View Source <span><i class="fab fa-github"></i></span
+                    ></a>
                   </div>
                 </div>
-                <div class="statement">
-                  <div class="input-statement">
-                    <p>> Abhigyan.resume</p>
+              </div>
+              <!-- Project 1 -->
+              <div class="right bg mx-4 my-4">
+                <h5 class="text-secondary p-3 m-0">.03</h5>
+                <h4 class="title text-center">Movies & Series Finder</h4>
+                <img
+                  class="card-img-top w-100 movieimg"
+                  src="images/project-movie.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <p class="card-text para">
+                    This website was built with React, Redux, and OMDB API. This
+                    will show a matching result of movies and series according
+                    to the user's <span id="dots4">...</span
+                    ><span id="more4"
+                      >input. This app consumes OMDB API in the JSON format to
+                      show movie data. Users can see more information by
+                      clicking on the git'Details' button on each movie
+                      card.</span
+                    >
+                  </p>
+                  <button
+                    onclick="myFunction4()"
+                    id="myBtn4"
+                    class="btn btn-outline-success read-more"
+                  >
+                    Read more
+                  </button>
+                  <div class="project-skills pt-2">
+                    <span class="project-skill">HTML5</span>
+                    <span class="project-skill">CSS3</span>
+                    <span class="project-skill">ReactJS</span>
+                    <span class="project-skill">Redux</span>
+                    <span class="project-skill">Bootstrap</span>
                   </div>
-                  <div class="return-statement">
-                    <p>["<a href="./images/resume.pdf" download>abhigyan.pdf</a>"]</p>
+                  <div class="mt-3">
+                    <a
+                      class="btn btn-primary button1 text-white live"
+                      href="https://movie-series-search.herokuapp.com/"
+                      target="_blank"
+                    >
+                      Live Demo
+                      <span><i class="fas fa-external-link-alt"></i></span
+                    ></a>
+                    <a
+                      class="btn btn-info button1 ml-4 view-source text-white"
+                      href="https://github.com/Abhigyan001/Movies_Info_React"
+                      target="_blank"
+                      >View Source <span><i class="fab fa-github"></i></span
+                    ></a>
                   </div>
                 </div>
-                <div class="statement">
-                  <div class="input-statement">
-                    <p>> Abhigyan.interests</p>
+              </div>
+
+              <!-- Project 6 -->
+              <div class="right bg mx-4 my-4">
+                <h5 class="text-secondary p-3 m-0">.04</h5>
+                <h4 class="title text-center">Space Survivor</h4>
+                <img
+                  class="card-img-top imgwidth w-75"
+                  src="images/survive.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <p class="card-text para">
+                    In this game, you play as a spaceship and your primary
+                    objective is to survive the army of war gunships. Just like
+                    in real life, you get one shot at this. This is an endless
+                    war so you have the opportunity to fight as long as you keep
+                    yourself alive.<span id="dots5">...</span
+                    ><span id="more5">
+                      Dodging the incoming fire, you get the ability to shoot
+                      down as many enemies as you can. The player's score will
+                      increase by 10 points every time he destroys an enemy. The
+                      game is over when the player gets shot or collides with an
+                      enemy.</span
+                    >
+                  </p>
+                  <button
+                    onclick="myFunction5()"
+                    id="myBtn5"
+                    class="btn btn-outline-success read-more"
+                  >
+                    Read more
+                  </button>
+                  <div class="project-skills pt-2">
+                    <span class="project-skill">HTML5</span>
+                    <span class="project-skill">Phaser 3</span>
+                    <span class="project-skill">Javascript</span>
+                    <span class="project-skill">Webpack</span>
+                    <span class="project-skill">Jest</span>
                   </div>
-                  <div class="return-statement">
-                    ["gaming", "designing", "blogging", "fiction novels", "advaita"]
+                  <div class="mt-3">
+                    <a
+                      class="btn btn-primary button1 text-white live"
+                      href="https://space-survivor.netlify.app/"
+                      target="_blank"
+                    >
+                      Live Demo
+                      <span><i class="fas fa-external-link-alt"></i></span
+                    ></a>
+                    <a
+                      class="btn btn-info button1 ml-4 view-source text-white"
+                      href="https://github.com/Abhigyan001/Survive"
+                      target="_blank"
+                      >View Source <span><i class="fab fa-github"></i></span
+                    ></a>
                   </div>
                 </div>
-                <div class="statement">
-                  <div class="input-statement">
-                    <p>> Abhigyan.education</p>
+              </div>
+              <!-- Project 4 -->
+              <div class="right bg mx-4 my-4">
+                <h5 class="text-secondary p-3 m-0">.05</h5>
+                <h4 class="title text-center">Social Media App</h4>
+                <img
+                  class="card-img-top imgwidth2 w-50"
+                  src="images/ss3.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <p class="card-text para">
+                    Social Media is a website where users can connect with each
+                    other. A user can send and receive friend requests from
+                    other users. Users can see the posts created by their
+                    friends on their timeline. They <span id="dots2">...</span
+                    ><span id="more2"
+                      >can like it as well as comment on it. Users can also see
+                      their pending friend requests and choose to decline the
+                      invitation.</span
+                    >
+                  </p>
+                  <button
+                    onclick="myFunction2()"
+                    id="myBtn2"
+                    class="btn btn-outline-success read-more"
+                  >
+                    Read more
+                  </button>
+                  <div class="project-skills pt-2">
+                    <span class="project-skill">Ruby</span>
+                    <span class="project-skill">Ruby on Rails</span>
+                    <span class="project-skill">Sass</span>
+                    <span class="project-skill">Bootstrap</span>
+                    <span class="project-skill">PostgreSQL</span>
                   </div>
-                  <div class="return-statement">
-                    "BTech. Civil Engineering - Tezpur University, Assam, India"
+                  <div class="mt-3">
+                    <a
+                      class="btn btn-primary button1 text-white live"
+                      href="https://socialmediaapp2020.herokuapp.com/"
+                      target="_blank"
+                    >
+                      Live Demo
+                      <span><i class="fas fa-external-link-alt"></i></span
+                    ></a>
+                    <a
+                      class="btn btn-info button1 ml-4 text-white view-source"
+                      href="https://github.com/Abhigyan001/ror-social-scaffold/tree/development"
+                      target="_blank"
+                      >View Source <span><i class="fab fa-github"></i></span
+                    ></a>
                   </div>
                 </div>
-                <div class="statement">
-                  <div class="input-statement">
-                    <p>> Abhigyan.skills</p>
+              </div>
+              <!-- Project 5 -->
+              <div class="right bg mx-4 my-4">
+                <h5 class="text-secondary p-3 m-0">.06</h5>
+                <h4 class="title text-center">Newsweek Clone</h4>
+                <img
+                  class="card-img-top imgwidth3 w-75"
+                  src="images/ss4.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <p class="card-text para">
+                    This project is a clone of the popular website Newsweek.
+                    This clone is responsive across multiple devices.<span
+                      id="dots3"
+                      >...</span
+                    ><span id="more3">
+                      The use of relative and fixed positions as well as CSS
+                      grids has been used predominantly throughout the project.
+                      Bootstrap has been used in the design of navbars and
+                      footers.</span
+                    >
+                  </p>
+                  <button
+                    onclick="myFunction3()"
+                    id="myBtn3"
+                    class="btn btn-outline-success read-more"
+                  >
+                    Read more
+                  </button>
+                  <div class="project-skills pt-2">
+                    <span class="project-skill">HTML5</span>
+                    <span class="project-skill">CSS3</span>
+                    <span class="project-skill">Bootstrap</span>
                   </div>
-                  <div class="return-statement">
-                    ["Sass", "JavaScript", "Ruby", "Rails", "React", "Redux", "Git", "Jira"]
+                  <div class="mt-3">
+                    <a
+                      class="btn btn-primary button1 text-white live"
+                      href="https://newsweekcloning.netlify.app/"
+                      target="_blank"
+                    >
+                      Live Demo
+                      <span><i class="fas fa-external-link-alt"></i></span
+                    ></a>
+                    <a
+                      class="btn btn-info button1 ml-4 text-white view-source"
+                      href="https://github.com/Abhigyan001/Bootstrap_Newsweek"
+                      target="_blank"
+                      >View Source <span><i class="fab fa-github"></i></span
+                    ></a>
                   </div>
                 </div>
-                <div class="statement pb-5">
-                  <div class="input-statement">
-                    ><span class="animated1">&nbsp;</span>
-                  </div>                  
-                </div>
+              </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="bg mx-4 my-4 footer" id="contactme">
+              <h2 class="section-title pt-4">Contact me!</h2>
+              <div class="pt-4 mb-4 contact-links">
+                <a
+                  class="btn btn-outline-primary button1 resume footer-button"
+                  href="./images/resume.pdf"
+                  download
+                >
+                  Resume <span><i class="fas fa-file"></i></span
+                ></a>
+                <a
+                  class="btn btn-outline-info button1 ml-4 resume footer-button"
+                  href="https://github.com/Abhigyan001/"
+                  target="_blank"
+                  >Github <span><i class="fab fa-github"></i></span
+                ></a>
+                <a
+                  class="btn btn-outline-success button1 ml-4 resume footer-button"
+                  href="https://www.linkedin.com/in/abhigyanmahanta/"
+                  target="_blank"
+                  >Linkedin <span><i class="fab fa-linkedin"></i></span
+                ></a>
+              </div>
+              <div
+                class="container-fluid last-footer bg-dark text-center text-white p-2"
+              >
+                <p class="mb-0">Made by Abhigyan Mahanta &copy; 2021</p>
               </div>
             </div>
           </div>
-          <div class="card-body2" id="project">          
-            <h2 class="section-title mb-2">Projects</h2>
-           
-            <!-- Project 3 -->
-            <div class="right bg mx-4 my-4">
-              <h5 class="text-secondary p-3 m-0">.01</h5>
-              <h4 class=" title text-center">Progress Tracker</h4>
-              <img class="card-img-top imgwidth w-75 mt-2" src="images/project-tracker.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text para">Progress Tracker helps users to track their daily progress across different subjects. This is a React app that consumes a Rails API.<span id="dots1">...</span><span id="more1"> Users can register and then log in to enter the time spent on each module. On the dashboard, users can see details like time left and current progress.</span></p>
-                <button onclick="myFunction1()" id="myBtn1" class="btn btn-outline-success read-more">Read more</button>
-                <div class="project-skills pt-2">
-                  <span class="project-skill">Ruby</span>
-                  <span class="project-skill">Ruby on Rails</span>
-                  <span class="project-skill">ReactJs</span>
-                  <span class="project-skill">Redux</span>
-                  <span class="project-skill">Bootstrap</span>
-                  <span class="project-skill">PostgreSQL</span>
-                  <span class="project-skill">Node.js</span>
-                  <span class="project-skill">ESLint</span>
-                </div>
-                <div class="mt-3 ">
-                  <a class="btn btn-primary button1 text-white live" href="https://progresstrackerapp.herokuapp.com/" target="_blank"> Live Demo
-                    <span><i class="fas fa-external-link-alt"></i></span></a>
-                  <a class="btn btn-info button1 ml-4 text-white view-source" href="https://github.com/Abhigyan001/Progress_Tracker/blob/feature/README.md"
-                    target="_blank">View Source <span><i class="fab fa-github"></i></span></a>
-                </div>
-              </div>
-            </div>
-            <!-- Project 2 -->
-            <div class="right bg mx-4 my-4">            
-              <h5 class="text-secondary p-3 m-0">.02</h5>
-              <h4 class=" title text-center">Stocks Info</h4>           
-              <img class="card-img-top imgwidth w-75" src="images/stock.png" alt="Card image cap">
-              <div class="card-body">              
-                <p class="card-text para">Stocks Info displays the most active, most gaining, and most losing stocks. Users can open each stock card for further details.  <span id="dots">...</span><span id="more">It also displays the latest market news and gives users the ability to find information about any stock. This web app was built with React, Redux, and Stock API.</span></p>               
-                  <button onclick="myFunction()" id="myBtn" class="btn btn-outline-success read-more">Read more</button>
-                <div class="project-skills pt-2">                  
-                  <span class="project-skill">ReactJs</span>
-                  <span class="project-skill">React Hooks</span>
-                  <span class="project-skill">Redux</span>
-                  <span class="project-skill">Axios</span>
-                  <span class="project-skill">Bootstrap</span>
-                </div>
-                <div class="mt-3 ">
-                  <a class="btn btn-primary button1 text-white live" href="https://newstocksdata.herokuapp.com/" target="_blank"> Live Demo <span><i class="fas fa-external-link-alt"></i></span></a>
-                  <a class="btn btn-info button1 ml-4 view-source text-white" href="https://github.com/Abhigyan001/Stocks_Info" target="_blank">View Source <span><i class="fab fa-github"></i></span></a>
-                </div>              
-              </div>            
-            </div>
-            <!-- Project 1 -->
-            <div class="right bg mx-4 my-4">
-              <h5 class="text-secondary p-3 m-0">.03</h5>
-              <h4 class=" title text-center">Movies & Series Finder</h4>
-              <img class="card-img-top w-100 movieimg" src="images/project-movie.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text para">This website was built with React, Redux, and OMDB API. This will show a matching result of movies and series according to the user's <span id="dots4">...</span><span id="more4">input. This app consumes OMDB API in the JSON format to show movie data. Users can see more information by clicking on the git'Details' button on each movie card.</span></p>
-                <button onclick="myFunction4()" id="myBtn4" class="btn btn-outline-success read-more">Read more</button>
-                <div class="project-skills pt-2">
-                  <span class="project-skill">HTML5</span>
-                  <span class="project-skill">CSS3</span>
-                  <span class="project-skill">ReactJS</span>
-                  <span class="project-skill">Redux</span>
-                  <span class="project-skill">Bootstrap</span>
-                </div>
-                <div class="mt-3 ">
-                  <a class="btn btn-primary button1 text-white live" href="https://movie-series-search.herokuapp.com/" target="_blank">
-                    Live Demo <span><i class="fas fa-external-link-alt"></i></span></a>
-                  <a class="btn btn-info button1 ml-4 view-source text-white" href="https://github.com/Abhigyan001/Movies_Info_React"
-                    target="_blank">View Source <span><i class="fab fa-github"></i></span></a>
-                </div>
-              </div>
-            </div>
-            
-             <!-- Project 6 -->
-            <div class="right bg mx-4 my-4">
-              <h5 class="text-secondary p-3 m-0">.04</h5>
-              <h4 class=" title text-center">Space Survivor</h4>
-              <img class="card-img-top imgwidth w-75" src="images/survive.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text para">In this game, you play as a spaceship and your primary objective is to survive the army of war gunships. Just like in real life, you get one shot at this. This is an endless war so you have the opportunity to fight as long as you keep yourself alive.<span id="dots5">...</span><span id="more5"> Dodging the incoming fire, you get the ability to shoot down as many enemies as you can. The player's score will increase by 10 points every time he destroys an enemy. The game is over when the player gets shot or collides with an enemy.</span></p>
-                <button onclick="myFunction5()" id="myBtn5" class="btn btn-outline-success read-more">Read more</button>
-                <div class="project-skills pt-2">
-                  <span class="project-skill">HTML5</span>
-                  <span class="project-skill">Phaser 3</span>
-                  <span class="project-skill">Javascript</span>
-                  <span class="project-skill">Webpack</span>
-                  <span class="project-skill">Jest</span>
-                </div>
-                <div class="mt-3 ">
-                  <a class="btn btn-primary button1 text-white live" href="https://space-survivor.netlify.app/" target="_blank">
-                    Live Demo <span><i class="fas fa-external-link-alt"></i></span></a>
-                  <a class="btn btn-info button1 ml-4 view-source text-white" href="https://github.com/Abhigyan001/Survive"
-                    target="_blank">View Source <span><i class="fab fa-github"></i></span></a>
-                </div>
-              </div>
-            </div>
-            <!-- Project 4 -->
-            <div class="right bg mx-4 my-4">
-              <h5 class="text-secondary p-3 m-0">.05</h5>
-              <h4 class=" title text-center">Social Media App</h4>
-              <img class="card-img-top imgwidth2 w-50" src="images/ss3.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text para">Social Media is a website where users can connect with each other. A user can send and receive friend requests from other users. Users can see the posts created by their friends on their timeline. They <span id="dots2">...</span><span id="more2">can like it as well as comment on it. Users can also see their pending friend requests and choose to decline the invitation.</span></p>
-                <button onclick="myFunction2()" id="myBtn2" class="btn btn-outline-success read-more">Read more</button>
-                <div class="project-skills pt-2">
-                  <span class="project-skill">Ruby</span>
-                  <span class="project-skill">Ruby on Rails</span>
-                  <span class="project-skill">Sass</span>
-                  <span class="project-skill">Bootstrap</span>
-                  <span class="project-skill">PostgreSQL</span>
-                </div>
-                <div class="mt-3 ">
-                  <a class="btn btn-primary button1 text-white live" href="https://socialmediaapp2020.herokuapp.com/" target="_blank"> Live Demo
-                    <span><i class="fas fa-external-link-alt"></i></span></a>
-                  <a class="btn btn-info button1 ml-4 text-white view-source" href="https://github.com/Abhigyan001/ror-social-scaffold/tree/development"
-                    target="_blank">View Source <span><i class="fab fa-github"></i></span></a>
-                </div>
-              </div>
-            </div>
-            <!-- Project 5 -->
-            <div class="right bg mx-4 my-4">
-              <h5 class="text-secondary p-3 m-0">.06</h5>
-              <h4 class=" title text-center">Newsweek Clone</h4>
-              <img class="card-img-top imgwidth3 w-75" src="images/ss4.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text para">This project is a clone of the popular website Newsweek. This clone is responsive across multiple devices.<span id="dots3">...</span><span id="more3"> The use of relative and fixed positions as well as CSS grids has been used predominantly throughout the project. Bootstrap has been used in the design of navbars and footers.</span></p>
-                <button onclick="myFunction3()" id="myBtn3" class="btn btn-outline-success read-more">Read more</button>
-                <div class="project-skills pt-2">
-                  <span class="project-skill">HTML5</span>
-                  <span class="project-skill">CSS3</span>
-                  <span class="project-skill">Bootstrap</span>
-                </div>
-                <div class="mt-3 ">
-                  <a class="btn btn-primary button1 text-white live" href="https://newsweekcloning.netlify.app/" target="_blank"> Live Demo
-                    <span><i class="fas fa-external-link-alt"></i></span></a>
-                  <a class="btn btn-info button1 ml-4 text-white view-source" href="https://github.com/Abhigyan001/Bootstrap_Newsweek"
-                    target="_blank">View Source <span><i class="fab fa-github"></i></span></a>
-                </div>
-              </div>
-            </div>
-          </div>            
-          
-          <!-- Footer -->
-          <div class="bg mx-4 my-4 footer" id="contactme">            
-            <h2 class="section-title pt-4">Contact me!</h2>            
-            <div class="pt-4 mb-4 contact-links">
-              <a class="btn btn-outline-primary button1 resume footer-button" href="./images/resume.pdf" download> Resume <span><i class="fas fa-file"></i></span></a>
-              <a class="btn btn-outline-info button1 ml-4 resume footer-button" href="https://github.com/Abhigyan001/"
-                target="_blank">Github <span><i class="fab fa-github"></i></span></a>
-              <a class="btn btn-outline-success button1 ml-4 resume footer-button" href="https://www.linkedin.com/in/abhigyanmahanta/"
-                target="_blank">Linkedin <span><i class="fab fa-linkedin"></i></span></a>
-            </div>                          
-            <div class="container-fluid last-footer bg-dark text-center text-white p-2">
-              <p class="mb-0">Made by Abhigyan Mahanta &copy; 2021</p>
-            </div>
-            
-          </div>          
-        </div>        
+        </div>
       </div>
-    </div>    
-  </main>
-</body>
+    </main>
+  </body>
+</html>
