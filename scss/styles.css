@@ -404,7 +404,7 @@ a.socialIcon:hover,
   margin-top: -3%;
 }
 
-#more, #more1, #more2, #more3, #more4, #more5 {
+#more, #more1, #more2, #more3, #more4, #more5, #more6 {
   display: none;
 }
 
@@ -486,6 +486,7 @@ a.socialIcon:hover,
 .last-footer {
   border-bottom-left-radius: 14px;
   border-bottom-right-radius: 14px;
+  margin-top:6%;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
