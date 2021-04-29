@@ -95,7 +95,7 @@ $nav-color: #ffffff;
 .right {
   @include tabs {
     height: 20%;
-  } 
+  }
 }
 
 .pos {
@@ -253,11 +253,9 @@ a.socialIcon:hover,
   }
   @include mobile {
     margin-top: 1%;
-    margin-bottom: 1%;    
+    margin-bottom: 1%;
   }
 }
-
-
 
 .terminal-header {
   height: 28px;
@@ -296,7 +294,7 @@ a.socialIcon:hover,
   border-radius: 0 0 4px 4px;
   box-shadow: 0 50px 100px rgba(50, 50, 93, 0.15),
     0 15px 35px rgba(50, 50, 93, 0.2), 0 5px 15px rgba(0, 0, 0, 0.12);
-  font-family: Monaco, Consolas, Lucida Console, monospace;  
+  font-family: Monaco, Consolas, Lucida Console, monospace;
 }
 
 .statement:first-child {
@@ -320,7 +318,6 @@ a.socialIcon:hover,
     @include mobile {
       font-size: 16px;
     }
-
   }
 }
 
@@ -339,8 +336,7 @@ a.socialIcon:hover,
   font-size: 1.5em;
   text-align: center;
   @include mobile {
-      
-  }  
+  }
 }
 
 .section-title:after {
@@ -356,8 +352,8 @@ a.socialIcon:hover,
 .bg {
   border: 5px rgb(134, 132, 132);
   border-radius: 14px;
-  box-shadow: 0 50px 100px rgba(50, 50, 93, 0.15), 0 15px 35px rgba(50, 50, 93, 0.2), 0 5px 15px rgba(0, 0, 0, 0.12);
-  
+  box-shadow: 0 50px 100px rgba(50, 50, 93, 0.15),
+    0 15px 35px rgba(50, 50, 93, 0.2), 0 5px 15px rgba(0, 0, 0, 0.12);
 }
 
 .project-skills {
@@ -396,7 +392,12 @@ a.socialIcon:hover,
   margin-top: -3%;
 }
 
-#more, #more1, #more2, #more3, #more4, #more5 {
+#more,
+#more1,
+#more2,
+#more3,
+#more4,
+#more5 {
   display: none;
 }
 
@@ -432,29 +433,19 @@ a.socialIcon:hover,
   }
 }
 
-.resume {
-  margin-left: 12%;
-  @include ipadpro {
-     margin-left: 4%;
-  }
-  @include tabs {
-     margin-left: 4%;
-  }
-}
-
 .footer {
-  height: 3.8%;
+  height: 3.5%;
   @include mobile {
-    height: 4.5%;
+    height: 4%;
   }
   @include ipadpro {
-    height: 4%;
+    height: 3.5%;
   }
 }
 
 .last-footer {
   border-bottom-left-radius: 14px;
-  border-bottom-right-radius: 14px;  
+  border-bottom-right-radius: 14px;
 }
 
 .footer-button {
@@ -462,23 +453,23 @@ a.socialIcon:hover,
     width: 30%;
     margin: 0;
     font-size: 19px;
-    display: flex;    
+    display: flex;
     flex-wrap: wrap;
-    justify-content:center;   
+    justify-content: center;
   }
 }
 
 .contact-links {
+  display: flex;
+  justify-content: space-around;
   @include mobile {
     display: flex;
     margin-left: 6%;
     margin-right: 8%;
-       
   }
-  
 }
 
-.movieimg{
+.movieimg {
   padding: 0;
   margin-bottom: -140px;
   margin-top: -120px;
